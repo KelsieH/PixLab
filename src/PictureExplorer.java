@@ -798,6 +798,12 @@ public class PictureExplorer implements MouseMotionListener, ActionListener, Mou
 	public static void main(String args[]) {
 		Picture pix = new Picture("beach.jpg");
 		pix.explore();
+
+		Picture pic2 = new Picture("moon-surface.jpg");
+		pic2.explore();
+
+		Picture pic3 = new Picture("bokuto.jpg");
+		pic3.explore();
 	}
 
 }
